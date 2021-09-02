@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+/* common color  */
+:root {
+  --primary-color: #1890ff;
+  --secondary-color: rgb(168, 203, 248);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* common styles*/
+* {
+  scroll-behavior: smooth !important;
+}
+body {
+  background-color: var(--secondary-color) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-title {
+  text-align: center !important;
+}
+.main-page {
+  padding-top: 80px !important;
+}
+/* navbar styles*/
+.header {
+  width: 100% !important;
+  position: fixed !important;
+  z-index: 1 !important;
+}
+.menu {
+  font-size: 12px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* about me*/
+.about-me {
+  margin-bottom: 30px !important;
+}
+.about-name {
+  color: var(--primary-color) !important;
+}
+.about-skill {
+  display: flex !important;
+  color: var(--primary-color) !important;
+  margin-left: 40px !important;
+  margin-top: -5px !important;
+}
+.about-me2 {
+  margin-bottom: 30px !important;
+}
+.my-image {
+  opacity: 0.7 !important;
+  border: none !important;
+}
+
+/* Experience*/
+
+/* Education*/
+.collapse-main {
+  background-color: lightblue;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.collapse-pannel {
+  background-color: rgb(168, 203, 248);
+  margin: 0;
+  padding: 0;
+}
+/* Skills */
+.skills-progress {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.progress {
+  margin-bottom: 60px !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* contact us */
+.contact {
+  margin-top: -60px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.icon {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+.contact-text {
+  margin-top: -2px;
+  margin-bottom: 35px;
+  margin-left: 5px;
+}
+.contact-text-last {
+  margin-top: -2px;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 767px) {
+  .about-skill {
+    margin-left: 0px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .about-me {
+    margin-bottom: 10px !important;
   }
 }
