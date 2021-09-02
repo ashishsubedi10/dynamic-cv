@@ -34,9 +34,7 @@ const AboutMe = () => {
                                 </List.Item>
                             )}
                         />
-
-
-                        <div><a href={Data.cvLink}>
+                        <div><a href={Data.cvLink} rel="noreferrer" target="_blank">
                             <Button size="large" type="primary">Download CV</Button>
                         </a></div>
                     </>
