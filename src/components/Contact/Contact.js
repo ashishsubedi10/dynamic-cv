@@ -8,7 +8,7 @@ const { Title, Text } = Typography;
 const Contact = () => {
     return (
         <div id="contact" className="main-page contact">
-            <Title className="main-title">Contact Me</Title>
+            <Title className="main-title">CONTACT</Title>
             <Row>
                 <Col span={2}></Col>
                 <Col xs={20} sm={20} md={20} lg={20}><div ><div><iframe width="1000" height="400" src="https://maps.google.com/maps?q=mahalaxmi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div></Col>

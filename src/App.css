@@ -99,6 +99,9 @@ body {
 
   /* margin-left: 40px !important; */
 }
+.ant-input {
+  color: black !important;
+}
 .icon:hover {
   font-size: 44px !important;
 }
@@ -180,5 +183,6 @@ h1.ant-typography,
   margin: 9px 24px 16px 10px;
   float: left;
 }
+
 /* <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
 <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> */

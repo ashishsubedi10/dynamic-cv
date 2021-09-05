@@ -6,7 +6,7 @@ const { Title } = Typography
 const Skills = () => {
     return (
         <div id="skills" className="main-page">
-            <Title className="main-title">Skills</Title>
+            <Title className="main-title">SKILLS</Title>
             <Row className="skills-progress">
                 {Data.skills.map((data) => {
                     return (

@@ -6,7 +6,7 @@ const { Title } = Typography
 const Education = () => {
     return (
         <div id="education" className="main-page">
-            <Title className="main-title">Education</Title>
+            <Title className="main-title">EDUCATION</Title>
             <Row>
                 <Col span={2}></Col>
                 <Col span={20}>

@@ -8,7 +8,7 @@ const { Title } = Typography
 const AboutMe = () => {
     return (
         <div id="about" className="main-page">
-            <Title className="main-title">About Me</Title>
+            <Title className="main-title">ABOUT ME</Title>
             <Row>
                 <Col xs={2} sm={2} md={2} lg={2}></Col>
                 <Col xs={0} sm={0} md={8} lg={8} className="my-image">
