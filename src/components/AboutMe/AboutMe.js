@@ -11,7 +11,10 @@ const AboutMe = () => {
             <Title className="main-title">About Me</Title>
             <Row>
                 <Col xs={2} sm={2} md={2} lg={2}></Col>
-                <Col xs={20} sm={20} md={12} lg={12}><Title level={2}>Hello,I am <span className="about-name">{`${Data.firstName} ${Data.middleName}  ${Data.lastName}`}</span> from <span style={{ color: '#1890ff' }}>{Data.country}</span>.</Title>
+                <Col xs={0} sm={0} md={8} lg={8} className="my-image">
+                    <Image width={400} height={540} src={Data.imageUrl} alt={Data.firstName} />
+                </Col>
+                <Col xs={20} sm={20} md={12} lg={12}><Title level={2}>I am <span className="about-name">{`${Data.firstName} ${Data.middleName}  ${Data.lastName}`}</span> from <span style={{ color: '#1890ff' }}>{Data.country}</span>.</Title>
                     <Title level={2} key={uuidv4()} className="about-skill">
                         <Typed
                             strings={[`${Data.mainJobTitle}.`]}
@@ -39,9 +42,7 @@ const AboutMe = () => {
                         </a></div>
                     </>
                 </Col>
-                <Col xs={0} sm={0} md={8} lg={8}>
-                    <Image className="my-image" width={400} height={540} src={Data.imageUrl} alt={Data.firstName} />
-                </Col>
+
                 <Col span={2}></Col>
             </Row>
             <Divider />
