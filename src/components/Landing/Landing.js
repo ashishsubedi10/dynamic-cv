@@ -1,4 +1,4 @@
-import { Col, Row, Typography, Image, Divider, List } from 'antd'
+import { Col, Row, Typography, Image, Divider } from 'antd'
 import Typed from 'react-typed';
 import { v4 as uuidv4 } from 'uuid';
 import Data from "../../data.json"

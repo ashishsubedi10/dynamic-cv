@@ -37,9 +37,14 @@ const AboutMe = () => {
                                 </List.Item>
                             )}
                         />
-                        <div><a href={Data.cvLink} rel="noreferrer" target="_blank">
-                            <Button size="large" type="primary">Download CV</Button>
-                        </a></div>
+                        <div style={{ display: 'flex' }}>
+                            <Title xs={20} sm={20} level={3}>{Data.noOfProjects} projects successfully completed.</Title>
+                            <span xs={20} sm={20} className="download-button"><a href={Data.cvLink} rel="noreferrer" target="_blank">
+                                <Button size="large" type="primary">Download CV</Button>
+                            </a>
+                            </span>
+
+                        </div>
                     </>
                 </Col>
 

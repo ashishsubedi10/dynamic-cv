@@ -58,6 +58,9 @@ body {
 .about-me2 {
   margin-bottom: 30px !important;
 }
+.download-button {
+  margin-left: 95px !important;
+}
 
 /* Experience*/
 
@@ -185,6 +188,11 @@ h1.ant-typography,
   height: 31px;
   margin: 9px 24px 16px 10px;
   float: left;
+}
+
+.ant-card-meta-description,
+.ant-card-meta-title {
+  color: black !important;
 }
 
 /* <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>

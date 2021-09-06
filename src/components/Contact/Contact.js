@@ -1,6 +1,6 @@
 import { Row, Col, Form, Typography, Input, Button } from 'antd'
 import Data from "../../data.json"
-import { HomeFilled, PhoneFilled, MailFilled, DatabaseFilled, FacebookFilled } from '@ant-design/icons';
+import { HomeFilled, PhoneFilled, MailFilled, DatabaseFilled } from '@ant-design/icons';
 
 
 const { Title, Text } = Typography;
@@ -11,7 +11,7 @@ const Contact = () => {
             <Title className="main-title">CONTACT</Title>
             <Row>
                 <Col span={2}></Col>
-                <Col xs={20} sm={20} md={20} lg={20}><div ><div><iframe width="1000" height="400" src="https://maps.google.com/maps?q=mahalaxmi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div></Col>
+                <Col xs={20} sm={20} md={20} lg={20}><div ><div><iframe title="1" width="1000" height="400" src="https://maps.google.com/maps?q=mahalaxmi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div></Col>
                 <Col span={2}></Col>
             </Row>
             <Row className="contact-form">

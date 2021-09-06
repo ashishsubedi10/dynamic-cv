@@ -9,6 +9,7 @@ const Navbar = () => {
                 <Menu.Item key="3"><a href="#about" title="about">ABOUT</a></Menu.Item>
                 <Menu.Item key="4"><a href="#experience" title="experience">EXPERIENCE</a></Menu.Item>
                 <Menu.Item key="5"><a href="#education" title="education">EDUCATION</a></Menu.Item>
+                <Menu.Item key="5"><a href="#portfolio" title="portfolio">PORTFOLIO</a></Menu.Item>
                 <Menu.Item key="6"><a href="#skills" title="skills">SKILLS</a></Menu.Item>
                 <Menu.Item key="7"><a href="#contact" title="contact">CONTACT</a></Menu.Item>
             </Menu>

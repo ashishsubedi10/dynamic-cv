@@ -114,6 +114,40 @@
         "details": "<p>Univhub is an online web application for abroad studies which allows you to search and apply from a list of over <strong>7000 universities</strong> in USA and Australia.</p>"
       }
     ],
+    "portfolio":[
+      {
+      "title":"Inventory Management System",
+      "appUrl":"https://www.google.com",
+      "imgUrl":"https://c8.alamy.com/comp/J7493G/inventory-management-hand-pressing-a-button-on-blurred-background-J7493G.jpg"
+
+    },
+    {
+      "title":"Resturant Management System",
+      "appUrl":"https://www.facebook.com",
+      "imgUrl":"https://i.pinimg.com/originals/95/fa/b1/95fab11fde7fb11cae353b5ccb807b98.jpg"
+
+    },
+    {
+      "title":"Intagram Clone",
+      "appUrl":"https://www.twitter.com",
+      "imgUrl":"https://cdn.gsmarena.com/imgroot/news/18/03/instagram-timeline-changes/-728/gsmarena_001.jpg"
+
+    },
+    {
+      "title":"ToDo List",
+      "appUrl":"https://www.linkdin.com",
+      "imgUrl":"https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg"
+
+    },
+    {
+      "title":"Memories App",
+      "appUrl":"https://www.instagram.com",
+      "imgUrl":"https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg"
+
+    }
+    
+  
+  ],
     "email": "poudel.01anuj@gmail.com",
     "phone": "+9779849933272",
     "address": "Mahalaxmi - 09, Lalitpur, Nepal",
