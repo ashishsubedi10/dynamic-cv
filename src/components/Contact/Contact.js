@@ -26,24 +26,30 @@ const Contact = () => {
                     >
                         <Form.Item
                             name="fullname"
+                            rules={[{ required: true, message: "Please enter your name!" }]}
                         >
                             <Input placeholder="Full name" />
                         </Form.Item>
 
                         <Form.Item
                             name="email"
+                            rules={[{
+                                type: 'email',
+                                message: 'The input is not valid E-mail!'
+                            }, { required: true, message: "Please enter your E-mail!" }]}
                         >
                             <Input placeholder="Email Address" />
                         </Form.Item>
 
                         <Form.Item
                             name="message"
+                            rules={[{ required: true, message: "Please enter message." }]}
                         >
                             <Input.TextArea placeholder="Message" autoSize={{ minRows: 3, maxRows: 5 }} />
                         </Form.Item>
 
                         <Form.Item >
-                            <Button type="primary" htmlType="submit" block>
+                            <Button type="primary" htmlType="submit" block >
                                 Submit
                             </Button>
                         </Form.Item>
